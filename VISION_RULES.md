@@ -101,9 +101,9 @@ Um das System isomorph und zukunftssicher an eine neue KI-Instanz (oder für ein
 
 ## 🛠️ Technische Direktiven
 > [!NOTE]
-> **Windows/PowerShell-Hinweis:** Da die Topologie des Myzel-Nexus Ordner mit speziellen Zeichen (eckige Klammern wie `[Myzel]-Inbox`) verwendet, **muss** bei allen Datei-Operationen in PowerShell zwingend der Parameter `-LiteralPath` verwendet werden (anstelle von `-Path`), um Regex-Interpretationsfehler zu vermeiden.
 
 ---
 
 ## 📉 Historie & Evolution
 - **v1.0 (Initial):** Boilerplate Setup für den Myzel-Nexus Workspace.
+
