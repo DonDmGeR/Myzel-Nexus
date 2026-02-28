@@ -29,7 +29,7 @@ Das Myzel besteht aus sechs grundlegenden Zonen:
 Dieses Repository dient als **Boilerplate / Starter-Kit**. Um dein eigenes Myzel zu starten:
 
 1.  **Klonen:** Klone dieses Repository in deinen lokalen Workspace (z.B. `<DEIN_WORKSPACE_PFAD>`).
-2.  **Die Vision verankern:** Lies die Datei `[Myzel]-Substrat/03_Resources/Cluster-Technical_Documentation/VISION_RULES.md` (oder übergib sie deinem initialen KI-Assistenten als System-Prompt). Sie ist das "Gesetz" des Gartens.
+2.  **Die Vision verankern (Der Identity-Trick):** Kopiere die Datei `[Myzel]-Substrat/03_Resources/Cluster-Technical_Documentation/VISION_RULES.md` in deinen Hauptordner. Benenne sie nach dem Modell deines KI-Agenten (z.B. in `CLAUDE.md`, `GEMINI.md` oder `QWEN.md`). Das zwingt die KI-Instanz dazu, dieses Regelwerk bei jedem Start als fundamentale System-Instruktion zu laden. Fortan baut sie das Myzel völlig autonom auf.
 3.  **Deinen Agenten wecken:** Öffne die Template-Datei im `[Myzel]-Pantheon`, passe sie an deinen primären KI-Agenten an (z.B. Gemini oder Claude) und mach sie zu seiner dauerhaften Identität.
 4.  **Füttere den Schlund:** Wirf deine ersten PDFs, Notizen oder Links in die `[Myzel]-Inbox` und gib deinem Agenten den Befehl: *"Triage die Inbox"*.
 
