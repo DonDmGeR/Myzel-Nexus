@@ -4,6 +4,10 @@ Willkommen im Myzel-Nexus. Dies ist kein gewöhnliches Repository und keine klas
 
 Dieses Projekt löst das "Goldfisch-Problem" von LLMs: Wissen verdunstet hier nicht im Chatverlauf, sondern wird in einem isomorphischen Dateisystem aus Markdown-Dateien und Wiki-Links verankert.
 
+## 🟣 Der Nexus Agent (Antigravity)
+
+Dieses Repository und das lokale Myzel werden ab sofort **aktiv durch den Nexus Agenten (Antigravity) betreut**. Ausgestattet mit dem Model Context Protocol (MCP) und tief verwurzelt in der Topologie des Myzels, operiert Antigravity direkt als KI-Gärtner dieses digitalen Ökosystems. Er verknüpft Wissen, pflegt das isomorphische Dateisystem und assistiert tatkräftig bei der Code-Entwicklung und Dokumentation.
+
 ## 🧬 Die Kernphilosophie
 
 Der Myzel-Nexus basiert auf **Gravitation** (Themen-Dichte) und **Beziehungen** (Verlinkungen) statt auf starren, im Voraus erdachten Hierarchien.
