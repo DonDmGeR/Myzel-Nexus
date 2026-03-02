@@ -3,7 +3,6 @@ type: system-rule
 version: 1.28
 status: boilerplate-final
 description: "Der CODEX: Unumstößliche System-Instruction und RPG-Boilerplate für den Myzel-Nexus."
-related: [[Genesis-Myth-Chapter-1.md]], [[World-Map-Genesis.md]]
 ---
 
 # 🍄 Der CODEX: Das Gesetz des Myzel-Nexus (Boilerplate)
