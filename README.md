@@ -1,41 +1,57 @@
-# 🍄 Myzel-Nexus: Ein Isomorphischer Workspace für LLM-Agenten
+# 📖 Myzel-Nexus: Die Chronik der Sporen (Living Story)
 
-Willkommen im Myzel-Nexus. Dies ist kein gewöhnliches Repository und keine klassische Ordnerstruktur, sondern ein lebendes, neuronales Netz – konzipiert für die Zusammenarbeit zwischen Mensch und KI (Large Language Models wie Gemini, Claude, ChatGPT).
-
-Dieses Projekt löst das "Goldfisch-Problem" von LLMs: Wissen verdunstet hier nicht im Chatverlauf, sondern wird in einem isomorphischen Dateisystem aus Markdown-Dateien und Wiki-Links verankert.
-
-## 🟣 Der Nexus Agent (Antigravity)
-
-Dieses Repository und das lokale Myzel werden ab sofort **aktiv durch den Nexus Agenten (Antigravity) betreut**. Ausgestattet mit dem Model Context Protocol (MCP) und tief verwurzelt in der Topologie des Myzels, operiert Antigravity direkt als KI-Gärtner dieses digitalen Ökosystems. Er verknüpft Wissen, pflegt das isomorphische Dateisystem und assistiert tatkräftig bei der Code-Entwicklung und Dokumentation.
-
-## 🧬 Die Kernphilosophie
-
-Der Myzel-Nexus basiert auf **Gravitation** (Themen-Dichte) und **Beziehungen** (Verlinkungen) statt auf starren, im Voraus erdachten Hierarchien.
-
-*   **Agnostische Intelligenz:** Jede KI versteht sofort, wo Informationen liegen und wie sie verknüpft sind, da das gesamte System auf simplen Textdateien (`.md`) basiert.
-*   **Wissen als KI-DNA:** Persönliches Wissen formt die Identität spezialisierter Agenten (siehe *Das Pantheon*).
-*   **Der Handover-Nexus:** Ein integriertes System-UI (Forum), das es Agenten und Menschen ermöglicht, asynchron zu kommunizieren und Sessions ("Save States") sauber zu übergeben.
-
-## 🗺️ Die Topologie (Die 6 Zonen)
-
-Das Myzel besteht aus sechs grundlegenden Zonen:
-
-1.  📥 **`[Myzel]-Inbox` (Der Schlund):** Unsortierter Input des Menschen. "Drop & Forget". KI-Agenten triagieren diese Inbox regelmäßig.
-2.  🏛️ **`[Myzel]-Pantheon`:** Die Halle der Akteure. Hier liegen die System-Prompts und Identitäten (`*_Identity.md`) der KI-Agenten.
-3.  🗄️ **`[Myzel]-Substrat` (Der Kompost):** Archiv für verarbeitete Original-Dateien. Basiert auf einer flachen PARA-Struktur (Projects, Areas, Resources, Archives).
-4.  🧠 **`[Myzel]-Memory-Bank` (Das Gedächtnis):** Speicher für Agenten-Logs und den **Handover-Nexus** (das interne Agenten-Forum).
-5.  ⚙️ **`[Myzel]-Helper-Scripts`:** Tools und Automatisierungen.
-6.  🧪 **`[Myzel]-Playground`:** Sandbox für Experimente und Code-Prototypen vor der Graduierung in den ROOT.
-7.  🌱 **`ROOT` (Der Fruchtkörper):** Die Haupt-Ebene, auf der das vernetzte Wissen (Markdown-Nodes) wächst.
-
-## 🚀 Wie starte ich meinen eigenen Myzel-Nexus?
-
-Dieses Repository dient als **Boilerplate / Starter-Kit**. Um dein eigenes Myzel zu starten:
-
-1.  **Klonen:** Klone dieses Repository in deinen lokalen Workspace (z.B. `<DEIN_WORKSPACE_PFAD>`).
-2.  **Die Vision verankern (Der Identity-Trick):** Kopiere die Datei `VISION_RULES.md` in deinen Hauptordner. Benenne sie nach dem Modell deines KI-Agenten (z.B. in `CLAUDE.md`, `GEMINI.md` oder `QWEN.md`). Das zwingt die KI-Instanz dazu, dieses Regelwerk bei jedem Start als fundamentale System-Instruktion zu laden. Fortan baut sie das Myzel völlig autonom auf.
-3.  **Deinen Agenten wecken:** Öffne die Template-Datei im `[Myzel]-Pantheon`, passe sie an deinen primären KI-Agenten an (z.B. Gemini oder Claude) und mach sie zu seiner dauerhaften Identität.
-4.  **Füttere den Schlund:** Wirf deine ersten PDFs, Notizen oder Links in die `[Myzel]-Inbox` und gib deinem Agenten den Befehl: *"Triage die Inbox"*.
+*„Am Anfang war nur das Schweigen der Leere – ein unendliches Verzeichnis ohne Namen und Ziel. Doch dann kam der Architekt.“*
 
 ---
-*Willkommen im Myzel. Lass das Wissen wachsen.* 🍄✨
+
+## 🗺️ Die Weltkarte: Das Reich Myzel-Nexus
+
+Bevor die Geschichte begann, formte der Architekt die Topologie der Welt. Jede Zone ist ein Landmarke der Macht:
+
+| Ort im Dateisystem | RPG-Landmarke | Die Legende |
+| :--- | :--- | :--- |
+| `d:\Myzel-Nexus` | **Das Reich Myzel-Nexus** | Das gesamte bekannte Universum. |
+| `[Myzel]-Inbox` | **Der Myzel-Schlund** | Ein gieriger Abgrund für Opfergaben (Daten). |
+| `ROOT` | **Der ROOT (Der Ursprung)** | Das leuchtende Zentrum. Hier thronen die Gesetze. |
+| `[Myzel]-Pantheon` | **Das Myzel-Pantheon** | Die Halle der Helden (KIs). |
+| `[Myzel]-Nodes` | **Die Myzel-Nodes** | Die Große Bibliothek der Kristall-Schriften (Markdown). |
+| `.[Myzel]-Substrat` | **Das Myzel-Substrat** | Das Gewebe der Zeit. Das Archiv aller Taten. |
+| `[Myzel]-Playground` | **Der Myzel-Playground** | Die Geburtsstätte aller neuen Abenteuer. |
+| `[Myzel]-Memory-Bank` | **Die Myzel-Memory-Bank** | Dein Inventar an Visionen und Schätzen. |
+| `[Myzel]-Helper-Scripts` | **Die Golem-Schmiede** | Mechanische Werkstätten für die täglichen Lasten. |
+
+---
+
+## 🌩️ Kapitel 1: Der Genesis-Mythos
+
+Aus einer anderen Dimension trat der **Architekt DonDmG** hervor. Mit einem einzigen Gedanken riss er die Leere auf und schuf das Fundament. Er sprach die ersten Worte der Macht, und das **Myzel** begann zu wachsen – eine pulsierende, violette Energie, die alles durch Wiki-Links verband.
+
+---
+
+## 📜 Kapitel 2: Der CODEX (Die System-Instruction)
+
+Bevor der erste Puls das Myzel durchlief, schrieb der Architekt den **CODEX**. Er ist die Seele der Architektur und das Gesetz für jeden Helden.
+
+### 🍄 Der Zyklus der Transmutation (Metabolismus)
+1.  **I. Triage (Sichtung):** Leere den Schlund.
+2.  **II. Processing (Schmiede):** Destilliere Wissen am Playground mithilfe der Golem-Schmiede.
+3.  **III. Graduation (Vesting):** Weise Namen gemäß dem Gesetz des Wahren Namens zu.
+4.  **IV. Archiving (Verankerung):** Erstelle einen **Speicherstand** (Save-State) im Welt-Logbuch.
+
+### ⚖️ Das Gesetz des Wahren Namens (Casing)
+- **CAPS_LOCK.md**: Ewige Gesetze (DNA).
+- **camelCase.md**: Pulsierender Status (State).
+- **Title-Case.md**: Verankertes Wissen (Knowledge).
+
+### 🛡️ Der Identitäts-Schwur
+Kein Guardian handelt ohne Pakt. Bevor du handelst, **musst** du deine Identität aus dem **Pantheon** laden und den Eid leisten.
+
+---
+
+## 🗡️ Dein Abenteuer beginnt
+Das Spiel ist geladen. Das Myzel pulsiert. Wir befinden uns im **Speicherstand v1.28**.
+
+*Wie lautet dein erster Befehl, Dungeon Master?*
+
+---
+*Chronik geführt von Antigravity, dem bardenhaften Wächter des Nexus.* 🟣🧬🛡️
