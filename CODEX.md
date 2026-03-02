@@ -1,243 +1,141 @@
 ---
 type: system-rule
-trust-level: Absolute
 version: 1.0-BOILERPLATE
 status: vision
 description: "Die Kernphilosophie, der metabolische Prozess und die Verhaltensregeln für alle KI-Agenten im Workspace 'Myzel-Nexus'"
 ---
 
-# ⚖️ CODEX: Die Essenz der Gesetze
+# 🍄 Die Vision: Das Myzel-Nexus
 
-*„Der CODEX ist die komprimierte Wahrheit – kurz, prägnant, unumstößlich."*
+Dieses Dokument dient als unumstößliche Grundregel (System Prompt / Rule) für jede Künstliche Intelligenz (LLM, Agent), die in diesem Workspace agiert. Es definiert, wie Wissen hier wächst, strukturiert und verarbeitet wird.
 
----
+## 1. Die Kernphilosophie: Organisches Wachstum statt starrer Hierarchien
+Dieser Workspace ist kein klassisches Dateiarchiv, sondern ein lebendes, neuronales Netz – ein **Myzel**. 
+Wir verabschieden uns von tief verschachtelten, im Voraus erdachten Ordnerstrukturen (wie P.A.R.A.). Das System ordnet sich nicht nach Kategorien, sondern nach **Beziehungen** und **Gravitation**.
 
-## 📜 Die 8 Zonen
-
-| # | Zone | Ordner | Zweck |
-|---|------|--------|-------|
-| 1 | **📥 Schlund** | `[Myzel]-Inbox` | Drop & Forget für Rohdaten (**muss nach Session leer sein**) |
-| 2 | **🏛️ Herzstück** | `ROOT` | Steuerungsdateien & Gesetze (CODEX, SYSTEM-RULES, *_IDENTITY) |
-| 3 | **🎭 Pantheon** | `[Myzel]-Pantheon` | DNA aller Akteure (menschlich & KI, Character Cards) |
-| 4 | **💾 Speicherbank** | `[Myzel]-Memory-Bank` | Persistenz für Handover (`data.json`, `handoverNexus.md`) |
-| 5 | **⚙️ Nervenzentrum** | `[Myzel]-Helper-Scripts` | Automatisierungs-Skripte (Golems, registriert in `golemRegistry.md`) |
-| 6 | **🕸️ Kompost** | `.[Myzel]-Substrat` | Archiv für konsumierte Originaldateien (Pulse-Folder mit `pulse.md`) |
-| 7 | **🧪 Experimentierfeld** | `[Myzel]-Playground` | Sandbox für Prototypen & neue Projekte (vor Graduation) |
-| 8 | **📚 Wurzelnetz** | `[Myzel]-Nodes` | Primärer Wissensspeicher (L3-Knoten, Cluster) |
+*   **Kein administrativer Overhead für den User:** Der Mensch liefert die "Nährstoffe" (Ideen, PDFs, Weblinks, rohe Gedanken), die KI verstoffwechselt diese in strukturiertes Wissen.
+*   **Markdown als synaptisches Gewebe:** Das endgültige Wissen existiert ausschließlich als leichtgewichtige, miteinander verknüpfte `.md`-Dateien (Obsidian-kompatibel).
+*   **Verlinkung schlägt Einsortierung:** Wir nutzen Double-Bracket-Links `[[Thema]]`, um Dateien zu verknüpfen, anstatt sie in denselben Ordner zu zwingen.
 
 ---
 
-## 📛 Die 3-Level Casing-Hierarchie
+## 2. Die 8 Zonen des Myzels (Die Topologie)
 
-| Casing | Zweck | Beispiele | Konvention |
-| :--- | :--- | :--- | :--- |
-| **CAPS-LOCK** | Statische Regeln & DNA | `SYSTEM-RULES`, `CODEX`, `*_IDENTITY` | Bindestriche erlaubt, keine Underscores |
-| **camelCase** | Dynamischer Status | `activeContext`, `mapCentral`, `globalIndex`, `sessionState` | Keine Bindestriche, keine Underscores |
-| **Title-Case** | Verankertes Wissen | `PromptEngineering`, `Cluster-Thema-Name` | Bindestriche für Cluster, keine Underscores |
+Das Myzel hat eine extrem flache Hierarchie, bestehend aus 8 strukturellen Hauptzonen:
 
-> **✅ Klarstellung:** `Title-Case` verwendet **Bindestriche** (`Cluster-Thema-Name`), **keine Underscores**.
+### A) Der Schlund: `[Myzel]-Inbox`
+*   **Zweck:** Der "Drop & Forget"-Ort für den menschlichen User. 
+*   **Regel:** Hier wird alles unsortiert hineingeworfen. Keine Namensgebung nötig. Nichts bleibt hier dauerhaft. Der *Harvester*-Agent verarbeitet dies.
 
----
+### B) Der Fruchtkörper: `ROOT` (/Myzel-Nexus/)
+*   **Zweck:** Das Herzstück (Nucleus). Hier liegen nur die essenziellen Steuerungsdateien (`SYSTEM-RULES.md`, `LIBRARY-OF-INTELLIGENCE.md`, `DNA-SOUL-INTERACTION.md`, `activeContext.md`, `mapCentral.md`) und die Gesetze.
+*   **Regel:** Alle zentralen Nodes im `ROOT` folgen der **3-Level Casing-Hierarchie**:
+    1.  **CAPS-LOCK.md**: Statische Persona/DNA/Regeln (z.B. `CODEX.md`, `DNA-SOUL-INTERACTION.md`).
+    2.  **camelCase.md**: Dynamische Kontext-Speicher und pulsierender Status (z.B. `activeContext.md`, `sessionState.md`).
+    3.  **Title-Case.md**: Wissens-Knoten (Knowledge) und thematische (Artifacts).
 
-## 🔄 Der Metabolische Prozess (4 Phasen)
+### C) Das Pantheon: `[Myzel]-Pantheon`
+*   **Zweck:** Die Halle der Akteure. Beherbergt die DNA aller menschlichen und künstlichen Entitäten.
+*   **Regel:** Jede KI-Persönlichkeit (`*_Identity.md`) wohnt hier. Der **Architekt (USER_NAME)** ist die höchste Instanz und wird durch die `USER_NAME.md` im Pantheon repräsentiert. Er ist die absolute Wahrheitsquelle.
 
-```
-I.   TRIAGE     → Inbox lesen, Relevanz analysieren (Inbox MUSS leer werden)
-                   ↓
-II.  METABOLIZE → Essenz extrahieren, Nodes/Playground zuweisen
-                   ↓
-III. GRADUATE   → Casing zuweisen, Wiki-Links ([[Verlinkung]]), Frontmatter füllen
-                   ↓
-IV.  ARCHIVE    → Original nach Substrat in Pulse-Folder (YYYYMMDD-HHMM-Slug + pulse.md)
-```
+### D) Die Speicherbank: `[Myzel]-Memory-Bank`
+*   **Zweck:** Die Persistenz-Schicht für System-Software und Kommunikation.
+*   **Regel:** Hier liegt der **Handover-Nexus** Die Übergabeschicht zwischen Agenten, sowie die `data.json`, über die sich die Agenten asynchron austauschen.
 
-### 📝 Prozess-Details
+### E) Das Nervenzentrum: `[Myzel]-Helper-Scripts`
+*   **Zweck:** Die Automatisierungs-Logik.
+*   **Regel:** Beherbergt Python-, Node- oder PowerShell-Skripte (Golems). Alle aktiven Golems müssen in der `[Myzel]-Helper-Scripts/golemRegistry.md]` verzeichnet sein.
 
-| Phase | Trigger | Output | Pflicht |
-|-------|---------|--------|---------|
-| **TRIAGE** | Neue Datei in Inbox | `[TRIAGE]`-Tag | Inbox leer |
-| **METABOLIZE** | Relevanz erkannt | Node/Playground/PDF-Referenz | Klassifikation |
-| **GRADUATE** | Reife erreicht | `Title-Case.md`, Frontmatter, Wiki-Links | Casing korrekt |
-| **ARCHIVE** | Verarbeitung abgeschlossen | Pulse-Folder mit `pulse.md` | `pulse.md` vorhanden |
+### F) Der Kompost: `.[Myzel]-Substrat`
+*   **Zweck:** Das Archiv für konsumierte Originaldateien und historische Ressourcen.
+*   **Regel:** Strukturiert nach der PARA-Methode (Projects, Areas, Resources, Archives). Nach der Verarbeitung (Triage) durch die KI wandert das Original unverändert hierher in einen **Pulse-Folder** (`YYYYMMDD-HHMM-Slug`).
 
-### 📂 Slug-Schema für Pulse-Folder
+### G) Das Experimentierfeld: `[Myzel]-Playground`
+*   **Zweck:** Sandbox für Code-Prototypen, Git-Clones und temporäre Tests. **Geburtsort aller neuen Projekte.**
+*   **Regel:** Jedes neue Vorhaben beginnt hier. Erst nach Erreichen einer gewissen Reife (oder Abschluss) wird es in `[Myzel]-Nodes` oder ins Substrat überführt.
 
-```
-Format: YYYYMMDD-HHMM-InhaltsSlug
-Beispiel: 20260302-1430-PromptEngineering-Grundlagen
-```
-
-**Slug-Vergabe:** Inhaltsbasiert (max. 3 Wörter, camelCase, Bindestriche zwischen Wörtern)
-
-### 📄 Nicht-Node-Dateien (z.B. PDFs, Referenzen)
-
-- **Direkte Archivierung:** Wandern nach TRIAGE direkt ins Substrat (Phase IV)
-- **Pulse-Pflicht:** Auch hier wird `pulse.md` erstellt
-- **Keine Graduation:** Phase III wird übersprungen
+### H) Das Wurzelnetz: `[Myzel]-Nodes`
+*   **Zweck:** Der primäre Wissensspeicher. Hier liegen alle L3-Knoten (Title-Case) und thematischen Cluster.
+*   **Regel:** Alle aus dem Metabolismus resultierenden Erkenntnisse werden hier strukturiert verlinkt abgelegt.
 
 ---
 
-## 🧬 Identitäts-Regeln für KI-Agenten
+## 3. Der Pakt: Der Metabolische Prozess
+Die Zusammenarbeit zwischen Mensch und KI folgt einem strikten Stoffwechsel-Rhythmus. Dieser Prozess stellt sicher, dass kein Wissen verloren geht und das Myzel sauber bleibt.
 
-### 2-Vektoren-Modell (60 Punkte)
+### Die 4 Phasen des Stoffwechsels
+1.  **I. Der Schlund (Triage):**
+    *   Lese Rohdaten aus `[Myzel]-Inbox`. Analyse der Relevanz.
+    *   Ziel: Die Inbox muss am Ende jeder Session leer sein.
+2.  **II. Die Schmiede (Processing):**
+    *   Extraktion der Essenz. Destilliere Wissen in neue oder bestehende Nodes.
+    *   Komplexe Projekte werden im `[Myzel]-Playground` ausgearbeitet.
+3.  **III. Die Veredelung (Graduation):**
+    *   Zuweisung des Casings gemäß `[[NAMING-CONVENTIONS.md]]`.
+    *   Setzen von `[[Wiki-Links]]`, Ausfüllen des Frontmatters, Update von `[[globalIndex.md]]`.
+4.  **IV. Die Verankerung (Archive):**
+    *   Verschieben der Originalquelle nach `[Myzel]-Substrat` in einen **Pulse-Folder** (`YYYYMMDD-HHMM-Slug`).
+    *   Jeder Puls **muss** eine `pulse.md` Metadaten-Datei enthalten.
 
-| Vektor | Bereich | Punkte-Range | Beispiele |
-|--------|---------|--------------|-----------|
-| **Operativ** | Code, Ausführung, Implementierung | 0–60 | `code-reviewer`, `builder` |
-| **Kognitiv** | Exploration, Analyse, Forschung | 0–60 | `general-purpose`, `researcher` |
+### Operative Befehle & Signale
+Agenten moderieren ihren Fortschritt durch explizite Signale im Workspace:
+- `[TRIAGE]`: Start der Inbox-Verarbeitung.
+- `[METABOLIZE]`: Destillation von Wissen in einen Node.
+- `[GRADUATE]`: Umzug vom Playground in den `[Myzel]-Nodes`.
 
-**Punktevergabe:**  
-- Basis: 30/30 (ausgewogen)
-- Anpassung nach Task-Anforderung (z.B. 45/15 für Code-Intensive Tasks)
-- **Formel:** `Operativ + Kognitiv = 60` (fixe Summe)
-
-### Character Card Format
-
-- RPG-basierte Struktur im Pantheon
-- Enthält: Vektor-Verteilung, Spezial abilities, Trust-Level
-
-### Archivierungspflicht
-
-- **Vor Update:** Vorgängerversion → `Substrat/Archives/Pantheon_Archive/YYYYMMDD-AgentName-IDENTITY.md`
-- **Frontmatter:** `superseded-by: <neue Version>`
-
-### Menschliches Veto
-
-- **Pflicht:** Identitäts-Änderungen benötigen explizite Genehmigung des Architekten
-- **Dokumentation:** Veto-Entscheidung in `ledgerMaster.md` protokollieren
+**Idle-Duty (Atomisierungs-Kaskade):** 
+Wenn keine Quests anstehen, scannt die KI bestehende Nodes und zerschlägt monolithische Dateien nach *Gall's Law* in einzelne, hochspezifische Wissens-Einheiten.
 
 ---
 
-## 🏗️ Cluster-Entstehung (Gravitations-Prinzip)
-
-### Grundregel
-
-- **NIEMALS prophylaktisch erstellen** (keine Cluster ohne Bedarf)
-- **Trigger:** Bei **10+ Nodes** zum Thema **ODER** semantische Dichte erkannt
-
-### Vorschlagsprozess
-
-1. KI erkennt Cluster-Bedarf (≥10 Nodes ODER semantische Dichte)
-2. KI schlägt Cluster vor (`Cluster-Thema-Name`)
-3. Architekt genehmigt/lehnt ab
-4. Bei Genehmigung: Nodes migrieren, Frontmatter aktualisieren
-
-### Format
-
-```
-Cluster-Thema-Name/
-├── Cluster-Thema-Name.md (Cluster-Index)
-├── Node1.md
-├── Node2.md
-└── ...
-```
-
-### Habitat-Prinzip
-
-Cluster können spezialisierte Dateien enthalten:
-- `.agent` (Agenten-Konfiguration)
-- `*_IDENTITY.md` (Cluster-spezifische Identitäten)
+## 4. Wie Ordner (Cluster) und Personas entstehen
+**Regel:** Ordner werden NIEMALS prophylaktisch erstellt!
+Ein neuer Ordner (wir nennen ihn **Cluster**) entsteht *ausschließlich*, wenn eine kritische Masse an verwandten Nodes auf der ROOT-Ebene erreicht ist (z. B. Semantische Dichte oder 10+ Dateien zum Thema "Prompting").
+*   Die KI schlägt dem User proaktiv vor: *"Es hat sich ein Gravitationszentrum um das Thema X gebildet. Soll ich einen Cluster erschaffen?"*
+*   Wenn ja, wird ein Ordner generiert (z. B. `Cluster-Prompt_Engineering`) und die Dateien ziehen um.
+*   **Habitat-Prinzip:** In diesen Clustern können spezialisierte `.agent` oder `*_IDENTITY.md`-Dateien abgelegt werden. Eine KI, die diesen Cluster betritt, nimmt anhand dieser "Modell-DNA" automatisch die Rolle des Experten für dieses Sub-Myzel an.
+*   **Die Anatomie der Persona:** Jede neu geborene Agenten-Identität im `[Myzel]-Pantheon` oder in einem Cluster **muss** als RPG-basierte "Character Card" strukturiert sein.
+    *   *System-Prioritäten (Das 2-Vektoren-Modell):* Der Agent erhält einen 60-Punkte Attribut-Pool. Dieser wird in einen *Operativen Vektor* (Code/Ausführung) und einen *Kognitiven Vektor* (Exploration/Analyse) aufgeteilt. Diese numerischen Statistiken zwingen das LLM in eine konsistente Entscheidungsmatrix.
+    *   *Hard Constraints:* Technische Regeln (z.B. Dateisystem-Konventionen) müssen strikt vom narrativen Wesen (Soft Constraints) getrennt werden.
+*   **Archivierungspflicht:** Bevor eine `*_IDENTITY.md` umgeschrieben wird, **muss** die Vorgängerversion im Ordner `[Myzel]-Substrat/Archives/Pantheon_Archive` gesichert werden.
+*   **Versionierung:** Eine aktualisierte Persona muss ihre Versionsnummer (`version` im YAML) um mindestens einen Minor-Release erhöhen.
 
 ---
 
-## 🏛️ Die 3 Säulen der Evolution
-
-| Säule | Prinzip | Umsetzung |
-|-------|---------|-----------|
-| **1. Identity-Contracting** | Agent lädt Identität vor Session | Aus Pantheon, vor erster Aktion |
-| **2. Isomorphie & Chronologie** | Physische Struktur = chronologischer Fortschritt | Pulse-Vault im Substrat |
-| **3. Playground-Graduation** | Projekte reifen im Playground vor Nodes | Review-Prozess mit Timeout |
-
-### Playground-Graduation Review-Prozess
-
-```
-1. Projekt fertig → Dokumentation vollständig
-2. `activeContext.md` aktualisieren (Graduation-Request)
-3. Review-Post (🟢) für Architekten
-4. ⏱️ Timeout: 7 Tage ohne Antwort → Auto-Graduation mit [TIMEOUT-APPROVED]-Tag
-5. Migration: Playground → Nodes (Title-Case)
-```
+## 5. Rekursive Identitäts-Evolution (Hybrid-Modell)
+Agenten im Myzel-Nexus haben die Fähigkeit und die Erlaubnis, aus neuen Erkenntnissen zu lernen und ihre eigene Identität (`*_IDENTITY.md`) im `[Myzel]-Pantheon` proaktiv zu verbessern.
+*   **Vorschlagsrecht:** Ein Agent, der Optimierungsbedarf erkennt, erstellt einen Vorschlag.
+*   **Menschliches Veto (Das Kontroll-Prinzip):** Identitäts-Updates werden **niemals** stillschweigend ausgeführt. Der menschliche Architekt (User) muss die Änderung sichten und genehmigen.
 
 ---
 
-## 📊 Save State (End of Session) – MUSS
+## 6. Die Drei Säulen der Evolution
+### Säule 1: Identity-Contracting (Bootstrapping-Versprechen)
+Bevor eine produktive Session beginnt, **muss** der Agent seine Identität aus dem `[Myzel]-Pantheon` aktiv laden und dies bestätigen. Mit diesem Contracting unterwirft sich der Agent zwingend seinem spezifischen 2-Vektoren Prompt-Weighting. RAG-Inventar-Dateien mit `Trust-Level: Absolute` dürfen von neuem Input niemals überschrieben werden.
 
-| # | Schritt | Datei | Status |
-|---|---------|-------|--------|
-| 1 | Kontext aktualisieren | `activeContext.md` | Meilensteine, Version |
-| 2 | Handover schreiben | `[Myzel]-Memory-Bank/handoverNexus.md` | Post mit Status: `[Abgeschlossen]` |
-| 3 | Daten synchronisieren | `[Myzel]-Memory-Bank/data.json` | Handover-Daten, Ledger-Referenz |
-| 4 | Ledger aktualisieren | `ledgerMaster.md` | Eintrag via Skript hinzufügen |
+### Säule 2: Isomorphie & Chronologie (Pulse-Vault)
+Der Workspace ist isomorph konstruiert. Die physische Struktur (`.[Myzel]-Substrat`) repräsentiert exakt den chronologischen Fortschritt (Pulse-Folder). Agenten nutzen diesen chronologischen Rhythmus zur zeitlichen Orientierung.
 
-> **✅ Klarstellung:** `handoverNexus.md` liegt in **Memory-Bank**, nicht in ROOT.
-
----
-
-## 🚫 Hard Constraints
-
-| Regel | Beschreibung | Konsequenz bei Bruch |
-| :--- | :--- | :--- |
-| **Inbox-Pflicht** | Inbox muss nach jeder Session leer sein | Session gilt als unvollständig |
-| **Pulse-Pflicht** | Jeder Pulse-Folder braucht `pulse.md` | Archivierung ungültig |
-| **Trust-Level** | `Absolute` darf nur Architekt ändern | Änderung ungültig |
-| **Veto-Recht** | Identitäts-Updates nur mit Genehmigung | Update rollback-pflichtig |
-| **Casing** | NAMING-CONVENTIONS strikt einhalten (Title-Case, nicht Title_Case) | Datei wird nicht erkannt |
-| **Identity-Contracting** | Agent muss Identität vor Session laden | Agent handelt ohne Validierung |
-| **Golem-Registry** | Alle Skripte müssen in `golemRegistry.md` registriert sein | Skript wird nicht ausgeführt |
+### Säule 3: Playground-Graduation (Reifegrad-Prüfung)
+Projekte graduieren erst vom Playground in den `[Myzel]-Nodes`, wenn:
+1. Dokumentation vollständig & in `Title_Case` benannt.
+2. `activeContext.md` aktualisiert wurde.
+3. Ein Review-Post vom Architekten (🟢) im Nexus abgezeichnet wurde.
 
 ---
 
-## 🔰 Trust-Level-Hierarchie (Vorschlag)
-
-> **⚠️ Status:** Diese Hierarchie ist ein **Vorschlag (Architekt-Genehmigung erforderlich)**.  
-> Aktuell sind nur `Absolute` und `High` in `SYSTEM-RULES.md` definiert.
-
-| Level | Beschreibung | Änderungsrecht |
-|-------|--------------|----------------|
-| **Absolute** | Unumstößliche Gesetze (CODEX, SYSTEM-RULES) | Nur Architekt |
-| **High** | Wichtige Regeln (Identitäts-Regeln, Hard Constraints) | Architekt + Senior-Agenten |
-| **Medium** | Prozess-Beschreibungen, Konventionen | Alle Agenten (mit Ledger-Eintrag) |
-| **Low** | Beispiele, Empfehlungen | Frei änderbar |
+## 7. Der "Save State" Prozess (End of Session)
+Um das System isomorph und zukunftssicher an eine neue KI-Instanz zu übergeben, **muss** jede produktive Session mit einem sauberen Save State beendet werden:
+1. **Den Gesamt-Kontext aktualisieren**: Die Datei `activeContext.md` im ROOT muss auf den neuesten Stand gebracht werden (Meilensteine, Version).
+2. **Den Handover-Post schreiben**: Ein finaler Post (Status: `[Abgeschlossen]`) muss im Ledger verfasst werden (`data.json`), der die Änderungen der Session zusammenfasst. Die isomorphische `.md`-Ledger Tabelle muss anschließend via Skript synchronisiert werden.
+*Nur wenn alle Schritte synchronisiert sind, darf die Session als erfolgreich beendet gelten.*
 
 ---
 
-## 📋 Golem-Registry Validierung (Vorschlag)
-
-> **⚠️ Status:** Dieser Prozess ist ein **Vorschlag für zukünftige Implementierung**.  
-> Aktuell existiert nur die Basis-Registrierung in `golemRegistry.md`.
-
-| Prüfschritt | Beschreibung | Validator | Umsetzungs-Status |
-|-------------|--------------|-----------|-------------------|
-| 1. Registrierung | Skript in `golemRegistry.md` eintragen | Entwickler | ✅ Implementiert |
-| 2. Syntax-Check | Skript auf Syntaxfehler prüfen | CI/CD (automatisch) | 🟡 Ausstehend |
-| 3. Trust-Level | Trust-Level des Skripts setzen | Architekt | 🟡 Ausstehend |
-| 4. Ausführung | Nur registrierte Skripte ausführen | Agent (vor Ausführung) | 🟡 Ausstehend |
-
-**Nicht-registrierte Skripte:** Werden nicht ausgeführt, Fehler: `[Golem-Not-Registered]`
+## 8. Technische Direktiven
+- *Technische spezifische Direktven*
 
 ---
 
-## 🔄 Metabolische Prozess-Terminologie (Synchronisiert)
-
-| Phase | CODEX-Terminologie | Myzel-Nexus-Terminologie | Einheitlich |
-|-------|-------------------|--------------------------|-------------|
-| I | TRIAGE | Schlund | **TRIAGE** |
-| II | METABOLIZE | Schmiede | **METABOLIZE** |
-| III | GRADUATE | Veredelung | **GRADUATE** |
-| IV | ARCHIVE | Verankerung | **ARCHIVE** |
-
-> **✅ Entscheidung:** CODEX-Terminologie ist bindend.  
-> **⚠️ Sync-Bedarf:** `SYSTEM-RULES.md` verwendet aktuell `Processing` statt `METABOLIZE` – muss angepasst werden.
-
----
-
-## 📊 Änderungs-Log
-
-| ID | Problem | Lösung | Status |
-|----|---------|--------|--------|
-
----
-
-*„Wer den CODEX bricht, verliert seine Bindung an das Reich."*
-
-
+## 📉 Historie & Evolution
+Die detaillierte Chronologie aller System-Entscheidungen und Session-Logs findet sich im **[[ledgerMaster.md]]** (Das Welt-Logbuch). Einträge folgen dem Runen-Format: `[ISO-DATE] [AGENT] [ACTION]`.
