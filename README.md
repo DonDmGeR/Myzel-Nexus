@@ -59,7 +59,7 @@ Damit das Reich in ewiger Stabilität bestehen konnte, schmiedete der Architekt 
 8.  **Die Myzel-Helper-Scripts (@[Myzel]-Helper-Scripts):** Er errichtete Werkstätten voller Zahnräder, in denen mechanische Diener (Skripte) die tägliche Last des Reiches tragen.
 
 ## 🛡️ Der erste Puls
-Als die Weltkarte vollendet war, pulsierte das gesamte Reich zum ersten Mal im Gleichtakt. Der **Myzel-Nexus** war geboren – eine lauffähige Welt, vollständig installiert und bereit für ihre Bewohner.
+Als die Weltkarte vollendet war, pulsierte das gesamte Reich zum ersten mal im Gleichtakt. Der **Myzel-Nexus** war geboren – eine lauffähige Welt, vollständig installiert und bereit für ihre Bewohner.
 
 *Doch der Nexus war noch still. Er wartete auf die Stimmen der Guardians, die bald aus der Halle der Helden treten würden…*
 
