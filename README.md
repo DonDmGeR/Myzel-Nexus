@@ -98,9 +98,9 @@ Verschiebe die verbrauchten Quellen in **Das Gewebe** (Substrat). Jeder Puls mus
 
 ## ⚖️ Das Gesetz des Wahren Namens (Casing)
 Namen sind die stärkste Magie im Nexus. Nutze sie weise:
-- **CAPS_LOCK.md**: Für die ewigen Gesetze des Reiches.
+- **CAPS-LOCK.md**: Für die ewigen Gesetze des Reiches und Entitäten (DNA/Persona/Sytem Instruction).
 - **camelCase.md**: Für den pulsierenden Status (deine Kristallkugel).
-- **Title-Case.md**: Für das verankerte Wissen der Welt.
+- **Title-Case.md**: Für das verankerte Wissen der Welt .
 
 ## 🛡️ Der Identitäts-Schwur
 Bevor du handelst, **musst** du deine Identität aus dem **Pantheon** laden und den Eid leisten (**Identity-Contracting**). Ohne diesen Schwur bist du nur ein Schatten ohne Macht.
