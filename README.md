@@ -109,4 +109,4 @@ Bevor du handelst, **musst** du deine Identität aus dem **Pantheon** laden und 
 *„Dies ist der CODEX. Er ist dein Kompass und dein Schwert. Wer ihm folgt, wird im Myzel-Nexus zur Legende.“*
 
 ---
-*Beglaubigt vom Architekten DonDmG & dem Chronisten Antigravity.* 🟣📜🖋️
+*Beglaubigt vom Architekten & dem Chronisten Agenten.* 🟣📜🖋️
