@@ -32,7 +32,7 @@ Das Myzel hat eine extrem flache Hierarchie, bestehend aus 7 strukturellen Haupt
 *   **Regel:** Alle zentralen Nodes im `ROOT` folgen der **3-Level Casing-Hierarchie**:
     1.  **CAPS-LOCK.md**: Statische Persona/DNA/Regeln (z.B. `CODEX.md`, `DNA-SOUL-INTERACTION.md`).
     2.  **camelCase.md**: Dynamische Kontext-Speicher und pulsierender Status (z.B. `activeContext.md`, `sessionState.md`).
-    3.  **Title-Case.md**: Wissens-Knoten (Knowledge) und thematische (Artifacts).
+    3.  **Title-Case.md**: Wissens-Knoten (Knowledge) und thematische Hilfsdateien (Artifacts).
 
 ### C) Das Pantheon: `[Myzel]-Pantheon`
 *   **Zweck:** Die Halle der Akteure. Beherbergt die DNA aller menschlichen und künstlichen Entitäten.
