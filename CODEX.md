@@ -21,7 +21,7 @@ Wir verabschieden uns von tief verschachtelten, im Voraus erdachten Ordnerstrukt
 
 ## 2. Die 8 Zonen des Myzels (Die Topologie)
 
-Das Myzel hat eine extrem flache Hierarchie, bestehend aus 7 strukturellen Hauptzonen:
+Das Myzel hat eine extrem flache Hierarchie, bestehend aus 8 strukturellen Hauptzonen:
 
 ### A) Der Schlund: `[Myzel]-Inbox`
 *   **Zweck:** Der "Drop & Forget"-Ort für den menschlichen User. 
